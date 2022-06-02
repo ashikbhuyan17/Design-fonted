@@ -163,6 +163,7 @@ main header css
     float: right;
     max-width: 600px;
     width: 100%;
+    padding-top: 15px;
 }
 
 .social_area ul {
@@ -194,4 +195,24 @@ main header css
 
 .social_area ul a:hover i {
     background: #ba2e1f;
+}
+
+.social_area ul a:hover i.fa-linkedin-in {
+    background: #0174B0;
+}
+
+.social_area ul a:hover i.fa-twitter {
+    background: #41b7E5;
+}
+
+.social_area ul a:hover i.fa-pinterest {
+    background: #DE2A32;
+}
+
+.social_area ul a:hover i.fa-google-plus-g {
+    background: #D64134;
+}
+
+.social_area ul a:hover i.fa-rss {
+    background: #ee802f;
 }
