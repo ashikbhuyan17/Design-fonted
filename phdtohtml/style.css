@@ -1,0 +1,194 @@
+/* =====================================================
+Common css
+========================================================*/
+body {
+    color: #666666;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =====================================================
+top header css
+========================================================*/
+.header_area {
+    width: 100%;
+    /* upore nice onno kono element cole asbe na  
+    overflow:hidden er poribothe eta use kory
+    */
+    clear: both;
+}
+
+#top_header_area {
+    background: #ba2e1f;
+    padding: 15px 0;
+    width: 100%;
+
+}
+
+/* jokon float niye kaj hbe tkn parent class overflow:hidden dite hoi,
+ thle r bangbe na design 
+ overflow:hidden dile dropdown kaj korbe na bt amr use korci cz amdr dropdown option lagbe na tay
+ */
+.inner_top_header {
+    overflow: hidden;
+}
+
+.mini_menu {
+    width: 70%;
+    float: left;
+    padding-top: 5px;
+}
+
+
+/* 
+    float: right; dile value ultaplata hoi tay amra float use korbo na and
+    parent class  text-align: ; use korbo and child class display: inline-block; use korbo
+    
+ */
+.mini_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.mini_menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.mini_menu ul li::after {
+    content: "";
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1px;
+    height: 12px;
+}
+
+.mini_menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.mini_menu ul li a:hover {
+    color: #ddd;
+}
+
+.search_area {
+    width: 30%;
+    float: right;
+}
+
+.search_area form {
+    background: #fff;
+    border-radius: 25px;
+    max-width: 210px;
+    padding: 2%;
+    width: 96%;
+    float: right;
+}
+
+.search_area input {
+    border: 0px solid;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    color: #000;
+    outline: none;
+}
+
+
+.search_area input[type="submit"] {
+    background: url('img/search.png');
+    background-repeat: no-repeat;
+    width: 23%;
+    background-position: right;
+}
+
+
+/* =====================================================
+main header css
+========================================================*/
+
+/* .inner_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_area ul {
+    display: flex;
+}
+
+.social_area ul li {
+    list-style: none;
+    margin-right: 15px;
+} */
+
+
+#main_header_area {
+    width: 100%;
+    clear: both;
+}
+
+.inner_header {
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.logo_area {
+    float: left;
+    width: 240px;
+}
+
+.social_area {
+    float: right;
+    max-width: 600px;
+    width: 100%;
+}
+
+.social_area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.social_area ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social_area ul a {
+    display: block;
+    text-decoration: none;
+}
+
+.social_area ul a i {
+    background: #333333;
+    border-radius: 50%;
+    width: 35px;
+    height: 25px;
+    color: #fff;
+    padding-top: 8px;
+    text-align: center;
+
+}
