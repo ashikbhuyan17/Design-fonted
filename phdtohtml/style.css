@@ -190,5 +190,8 @@ main header css
     color: #fff;
     padding-top: 8px;
     text-align: center;
+}
 
+.social_area ul a:hover i {
+    background: #ba2e1f;
 }
