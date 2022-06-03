@@ -20,6 +20,23 @@ body {
     height: auto;
 }
 
+.align_left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.align_right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.align_center {
+    display: block;
+    margin: 0 auto 15px;
+}
+
 
 /* =====================================================
 top header css
@@ -290,4 +307,39 @@ Slider css
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+
+
+/* =====================================================
+HERO AREA CSS
+========================================================*/
+#hero_area {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.inner_hero {
+    overflow: hidden;
+}
+
+.inner_hero h2 {
+    color: #000000;
+    font-size: 86px;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.inner_hero p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.inner_hero a {
+    float: right;
+    color: #ba2e1f;
+    font-size: 16px;
+    text-transform: uppercase;
 }
