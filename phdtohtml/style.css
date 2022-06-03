@@ -270,3 +270,24 @@ main MENU css
     color: #ba2e1f;
     transition: 2s;
 }
+
+
+/* =====================================================
+Slider css
+========================================================*/
+
+#slider_area {
+    margin-top: 20px;
+}
+
+.item {
+    position: relative;
+}
+
+.slider_cation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}

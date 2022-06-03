@@ -9,83 +9,112 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css//fontawesome.min.css">
     <link rel="stylesheet" href="./style.css">
+
+
+    <!-- bx slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 
 <body>
-    <!-- <i class="fab fa-facebook"></i> -->
-    <div class="header_area">
-        <!--#top_header_area>.inner_top_header.container>.mini_menu  -->
-        <div id="top_header_area">
-            <div class="inner_top_header container">
-                <div class="mini_menu">
+    <header class="header_area">
+        <!-- <i class="fab fa-facebook"></i> -->
+        <div class="header_area">
+            <!--#top_header_area>.inner_top_header.container>.mini_menu  -->
+            <div id="top_header_area">
+                <div class="inner_top_header container">
+                    <div class="mini_menu">
 
-                    <!-- ul>li*5>a -->
+                        <!-- ul>li*5>a -->
+                        <ul>
+                            <li><a href="">Sign Up |</a></li>
+                            <li><a href="">Login |</a></li>
+                            <li><a href="">RSS Feeds |</a></li>
+                            <li><a href="">Archived News</a></li>
+                        </ul>
+                    </div>
+                    <div class="search_area">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="search here">
+                            <input type="submit" value="">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="main_header_area">
+            <!-- .inner_header.container>.logo_area -->
+            <div class="inner_header container">
+                <div class="logo_area">
+                    <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="social_area">
                     <ul>
-                        <li><a href="">Sign Up |</a></li>
-                        <li><a href="">Login |</a></li>
-                        <li><a href="">RSS Feeds |</a></li>
-                        <li><a href="">Archived News</a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href=""><i class="fas fa-rss"></i></a></li>
                     </ul>
                 </div>
-                <div class="search_area">
-                    <form action="">
-                        <input type="text" name="" id="" placeholder="search here">
-                        <input type="submit" value="">
-                    </form>
-                </div>
-
             </div>
         </div>
-    </div>
 
 
-    <div id="main_header_area">
-        <!-- .inner_header.container>.logo_area -->
-        <div class="inner_header container">
-            <div class="logo_area">
-                <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
-            </div>
-            <div class="social_area">
+        <!-- nav#main_menu  -->
+        <nav id="main_menu">
+            <!-- .inner_menu.container -->
+            <div class="inner_menu container">
                 <ul>
-                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href=""><i class="fas fa-rss"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- nav#main_menu  -->
-    <nav id="main_menu">
-        <!-- .inner_menu.container -->
-        <div class="inner_menu container">
-            <ul>
-                <li><a href="">HOMEPAGE</a></li>
-                <li><a href="">STYLE DEMO</a></li>
-                <li><a href="">FULL WIDTH</a></li>
-                <li><a href="">DROPDOWN</a>
-                    <!-- ul>li*5>a{DROPDOWN Menu}   -->
-                    <!-- <ul>
+                    <li><a href="">HOMEPAGE</a></li>
+                    <li><a href="">STYLE DEMO</a></li>
+                    <li><a href="">FULL WIDTH</a></li>
+                    <li><a href="">DROPDOWN</a>
+                        <!-- ul>li*5>a{DROPDOWN Menu}   -->
+                        <!-- <ul>
                         <li><a href="">DROPDOWN Menu</a></li>
                         <li><a href="">DROPDOWN Menu</a></li>
                         <li><a href="">DROPDOWN Menu</a></li>
                         <li><a href="">DROPDOWN Menu</a></li>
                         <li><a href="">DROPDOWN Menu</a></li>
                     </ul> -->
-                </li>
-                <li><a href="">GALLERY</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">LINK TEXT</a></li>
-                <li><a href="">LONG LINK TEXT</a></li>
+                    </li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">LINK TEXT</a></li>
+                    <li><a href="">LONG LINK TEXT</a></li>
 
-            </ul>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section#slider_area>.inner_slider.container -->
+    <section id="slider_area">
+        <div class="inner_slider container">
+            <div class="slider">
+                <div class="item">
+                    <div class="slider_cation">
+                        <h4>welcome</h4>
+                    </div>
+                    <img src="./img/image.jpg" alt="">
+                </div>
+                <div class="item"><img src="./img/image.jpg" alt=""></div>
+                <div class="item"><img src="./img/image.jpg" alt=""></div>
+                <div class="item"><img src="./img/image.jpg" alt=""></div>
+            </div>
         </div>
-    </nav>
+    </section>
 
-
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+    </script>
 </body>
 
 </html>
