@@ -1,0 +1,27 @@
+body {
+    height: 500px;
+}
+
+
+
+.box {
+    width: 30%;
+}
+
+img {
+    margin: auto;
+}
+
+@media only screen and (max-width: 672px) {
+    .box {
+        width: 48%;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box {
+        width: 96%;
+        margin-top: 15px;
+    }
+}
